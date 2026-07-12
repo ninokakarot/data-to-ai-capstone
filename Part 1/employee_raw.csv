@@ -1,0 +1,669 @@
+employee_id,age,department,education_level,region,remote_work,years_experience,monthly_salary,performance_score,satisfaction_score,bonus_pct
+1225,,Engineering,Masters,East,No,21.2,"$12,147.21",,75.4,6.16
+1364,41.0,Sales,PhD,North,No,16.3,"$7,636.56",9.3,45.2,10.24
+1048,,Engineering,Bachelors,West,No,25.8,"$12,543.72",6.9,67.4,1.64
+1614,49.0,HR,PhD,West,Yes,26.7,"$9,306.62",6.4,59.1,
+1375,47.0,Sales,Masters,North,No,24.4,"$8,989.28",7.2,59.3,1.83
+1461,39.0,Marketing,Bachelors,North,Yes,17.8,"$8,206.24",,57.9,1.44
+1592,25.0,Engineering,Bachelors,East,Yes,0.0,"$8,905.69",5.9,53.7,2.05
+1024,38.0,Finance,Masters,West,No,18.6,"$9,300.80",6.8,56.9,
+1464,50.0,Engineering,PhD,North,No,31.2,"$13,610.11",7.2,92.7,2.32
+1105,47.0,Support,Masters,North,Yes,18.1,"$7,546.37",7.6,98.3,3.39
+1450,36.0,Marketing,Bachelors,East,Yes,11.3,"$7,222.62",9.0,77.2,0.21
+1585,26.0,Finance,Bachelors,East,Yes,1.7,"$6,928.66",7.9,60.6,2.88
+1234,22.0,Marketing,Bachelors,East,Yes,3.9,"$6,351.05",5.7,88.6,2.93
+1361,47.0,HR,Masters,West,No,23.4,"$9,023.23",6.1,62.8,1.3
+1499,40.0,Engineering,Bachelors,North,Yes,19.8,"$11,275.22",6.2,87.0,0.7
+1061,41.0,Support,PhD,South,Yes,27.2,"$9,437.78",6.4,,10.29
+1070,48.0,Engineering,PhD,West,No,26.4,"$12,461.01",7.4,58.4,
+1620,32.0,Sales,Bachelors,South,Yes,5.7,"$6,534.20",7.1,78.4,0.77
+1489,28.0,Marketing,High School,North,No,8.8,"$7,538.38",5.6,78.4,3.74
+1488,37.0,Engineering,Bachelors,North,Yes,14.4,"$10,924.53",5.8,77.9,0.43
+1547,43.0,Engineering,Bachelors,East,Yes,21.3,"$11,742.62",8.2,66.0,
+1249,43.0,Engineering,Bachelors,South,No,19.4,"$11,633.75",5.7,100.0,
+1336,41.0,Marketing,PhD,North,No,18.9,"$8,270.79",6.7,100.0,
+1511,34.0,Sales,High School,East,No,10.7,"$6,893.81",6.4,74.4,
+1454,,Sales,Masters,South,Yes,2.0,"$5,748.40",6.9,71.5,10.8
+1260,37.0,Marketing,Bachelors,South,Yes,16.6,"$8,752.69",,,2.37
+1261,37.0,Sales,Masters,North,Yes,18.4,"$7,778.97",6.7,94.1,2.29
+1162,24.0,Finance,High School,South,Yes,1.6,"$6,676.09",7.1,59.6,
+1523,34.0,Sales,Bachelors,South,No,12.8,"$7,050.16",5.9,65.1,14.56
+1379,40.0,Engineering,Masters,South,No,15.1,"$10,796.54",7.6,79.0,5.17
+1173,36.0,Engineering,Bachelors,North,Yes,12.4,"$10,405.78",6.2,95.1,6.86
+1203,33.0,Marketing,Masters,West,No,16.2,"$8,261.82",5.8,42.9,0.66
+1482,42.0,Sales,Bachelors,West,No,21.9,"$8,464.77",7.7,60.2,1.15
+1160,44.0,Support,PhD,South,Yes,18.7,"$7,266.61",6.7,66.1,1.92
+1359,41.0,Engineering,Masters,East,Yes,16.4,"$11,404.09",5.9,66.7,
+1215,37.0,Support,High School,North,No,12.1,"$6,379.74",8.7,69.7,
+1112,63.0,Sales,Bachelors,North,No,40.4,"$11,251.25",6.1,68.8,
+1548,36.0,Sales,Masters,West,No,10.8,"$6,833.63",8.1,56.0,1.87
+1305,33.0,Finance,PhD,East,No,9.9,"$7,934.65",5.2,71.7,3.28
+1609,29.0,Support,Bachelors,South,No,3.1,"$5,115.23",6.4,72.4,4.74
+1650,39.0,Sales,Bachelors,South,No,19.8,"$8,011.61",7.2,66.2,19.84
+1014,30.0,Finance,High School,East,Yes,9.2,"$8,281.78",8.8,66.5,2.89
+1336,41.0,Marketing,PhD,North,No,18.9,"$8,270.79",6.7,100.0,
+1369,44.0,Engineering,High School,East,Yes,21.2,"$11,557.28",5.4,50.0,1.23
+1042,43.0,Finance,Masters,South,No,16.3,"$9,301.94",5.8,60.6,
+1537,23.0,Marketing,Bachelors,East,Yes,7.1,"$7,032.31",,65.3,1.65
+1366,31.0,Engineering,Bachelors,East,Yes,5.7,"$9,207.33",7.5,48.0,
+1060,42.0,Sales,Bachelors,North,Yes,22.3,"$33,339.76",6.7,38.8,0.11
+1387,45.0,Support,Bachelors,East,Yes,26.3,"$9,501.43",3.8,65.9,
+1453,43.0,Support,Masters,West,Yes,20.8,"$7,729.99",7.0,100.0,
+1082,55.0,Engineering,High School,North,Yes,31.4,"$13,001.16",7.5,72.8,2.11
+1224,45.0,HR,Bachelors,West,No,17.0,"$7,900.24",6.8,65.6,0.24
+1582,54.0,Marketing,Bachelors,North,No,31.3,"$9,980.94",6.6,,2.41
+1546,47.0,Engineering,Bachelors,East,No,25.0,"$12,284.01",6.0,51.2,0.64
+1237,26.0,Engineering,Bachelors,West,No,0.4,"$8,846.30",5.2,71.0,1.6
+1640,28.0,Finance,Bachelors,North,No,4.9,"$7,351.06",5.3,80.1,1.23
+1577,47.0,Finance,Bachelors,East,No,22.9,"$10,142.77",,84.4,4.27
+1441,,Finance,Bachelors,South,No,14.4,"$8,663.12",5.0,75.7,0.13
+1586,32.0,Marketing,High School,West,No,9.7,"$7,265.67",5.9,,3.41
+1140,61.0,Sales,Masters,South,Yes,36.0,"$10,611.74",9.4,78.8,0.86
+1348,51.0,Engineering,High School,South,No,34.0,"$13,578.24",5.6,71.7,11.32
+1182,41.0,Finance,Bachelors,West,Yes,20.3,"$9,671.28",5.5,64.0,10.94
+1243,50.0,Engineering,Bachelors,West,Yes,28.5,"$12,971.00",7.5,66.7,3.03
+1067,48.0,Marketing,Bachelors,North,No,22.2,"$9,398.33",8.5,55.6,3.73
+1186,30.0,Support,Bachelors,North,Yes,4.5,"$5,460.99",5.0,68.2,
+1093,42.0,Engineering,Masters,West,No,22.0,"$11,738.22",6.4,78.0,
+1355,50.0,Engineering,Masters,South,Yes,32.4,"$13,516.20",7.0,84.1,
+1442,34.0,Sales,Masters,South,No,12.5,"$6,928.99",5.8,55.1,
+1580,30.0,Engineering,High School,North,Yes,3.6,"$9,046.12",7.3,84.1,2.07
+1404,31.0,Sales,High School,West,No,11.3,"$6,681.89",8.0,85.8,
+1086,45.0,Sales,Masters,South,No,26.8,"$9,438.87",8.0,87.9,4.43
+1306,48.0,Engineering,Masters,West,No,29.0,"$12,741.83",6.4,93.8,13.25
+1347,44.0,HR,Masters,East,No,21.7,"$8,553.80",7.4,70.0,4.02
+1219,,HR,High School,North,No,25.4,"$9,474.99",4.8,70.5,1.02
+1174,32.0,HR,Masters,East,No,7.3,"$6,388.03",,75.3,
+1312,30.0,Engineering,Bachelors,North,No,10.9,"$10,367.85",,70.7,0.14
+1443,36.0,Support,Bachelors,South,No,16.0,"$6,862.55",5.5,83.6,0.55
+1035,43.0,Engineering,Masters,North,Yes,19.4,"$11,325.90",7.5,63.3,
+1591,33.0,HR,Masters,North,Yes,4.8,"$6,092.07",8.6,74.7,
+1520,47.0,Finance,High School,West,Yes,23.2,"$9,955.98",7.6,62.5,4.48
+1361,47.0,HR,Masters,West,No,23.4,"$9,023.23",6.1,62.8,1.3
+1302,37.0,Sales,Bachelors,West,Yes,12.4,"$7,342.33",6.0,62.7,5.17
+1621,29.0,Support,PhD,East,Yes,7.1,"$5,415.00",6.5,67.6,
+1330,42.0,Engineering,Bachelors,East,No,18.7,"$11,410.04",5.6,,3.08
+1468,37.0,HR,Masters,East,No,9.9,"$6,917.52",6.2,90.3,2.67
+1135,52.0,Marketing,PhD,South,No,27.8,"$9,837.67",6.4,60.7,0.15
+1149,52.0,Engineering,Masters,South,No,32.3,"$13,100.63",6.7,82.4,2.7
+1001,40.0,Support,Bachelors,West,No,24.7,"$8,859.20",8.1,55.0,6.45
+1121,29.0,Marketing,Bachelors,East,No,9.3,"$6,792.51",7.0,79.4,1.07
+1018,25.0,Sales,PhD,North,No,3.3,"$5,710.01",8.5,62.1,0.48
+1420,51.0,Finance,Bachelors,East,No,30.7,"$11,632.88",7.1,77.8,2.93
+1536,32.0,Sales,Masters,North,No,16.6,"$7,799.67",6.6,69.8,
+1525,45.0,Sales,Bachelors,South,Yes,24.5,"$8,939.39",9.1,99.9,
+1083,38.0,Finance,High School,South,No,15.7,"$9,469.45",9.4,50.3,2.77
+1133,41.0,Marketing,Bachelors,West,No,15.8,"$8,673.35",7.2,28.9,1.47
+1615,39.0,Engineering,Bachelors,East,No,17.7,"$11,313.52",5.3,78.6,1.39
+1410,48.0,HR,Masters,West,Yes,28.2,"$9,829.24",8.0,68.5,5.26
+1550,34.0,Engineering,Masters,North,Yes,3.6,"$8,892.28",,94.1,
+1583,22.0,Sales,Bachelors,East,No,2.8,"$6,045.50",7.9,69.4,6.02
+1380,49.0,Support,Bachelors,South,Yes,28.1,"$8,593.38",6.9,83.9,1.11
+1120,45.0,Marketing,Masters,North,No,24.5,"$9,280.70",7.4,60.0,0.86
+1338,50.0,Support,High School,East,No,25.9,"$8,325.53",,43.9,
+1156,,Support,High School,West,Yes,14.3,"$6,679.14",5.8,64.9,
+1066,42.0,Marketing,Bachelors,East,No,15.1,"$7,920.20",,81.8,6.89
+1102,22.0,Support,Bachelors,West,Yes,2.4,"$5,037.56",5.9,66.0,2.44
+1012,38.0,HR,Masters,West,No,14.5,"$7,933.92",7.7,,0.63
+1294,43.0,Sales,Bachelors,West,No,23.8,"$9,304.36",7.1,61.9,
+1089,,Sales,Bachelors,East,No,19.2,"$8,030.18",5.8,85.8,14.35
+1350,37.0,Sales,Bachelors,East,Yes,14.2,"$7,139.46",8.4,71.6,3.4
+1208,29.0,Support,Masters,South,No,6.3,"$6,749.69",5.7,70.0,0.67
+1607,47.0,Finance,Masters,West,No,22.3,"$9,854.79",8.1,69.5,1.83
+1362,39.0,Sales,Bachelors,South,Yes,13.7,"$7,111.25",6.1,,4.5
+1647,32.0,Sales,High School,West,No,9.9,"$6,892.82",5.7,59.4,2.02
+1308,40.0,Marketing,Bachelors,West,No,20.1,"$8,641.44",,70.0,
+1555,29.0,Sales,High School,North,No,4.6,"$5,831.02",7.3,,8.21
+1246,34.0,Finance,Masters,South,Yes,11.0,"$8,221.62",6.5,55.4,
+1278,,Marketing,Masters,West,No,23.7,"$9,172.12",10.0,59.4,
+1551,62.0,Engineering,Bachelors,East,No,38.9,"$14,251.20",6.9,48.7,2.4
+1256,54.0,Support,Masters,North,No,30.0,"$9,260.20",7.6,86.1,5.63
+1458,47.0,Engineering,Bachelors,North,No,30.7,"$13,109.92",7.2,79.3,6.35
+1108,40.0,Engineering,PhD,South,No,18.6,"$11,237.16",9.2,69.6,11.34
+1046,42.0,Finance,Bachelors,North,Yes,22.2,"$10,189.45",7.3,73.4,
+1641,27.0,Support,Bachelors,North,Yes,5.9,"$5,626.55",4.5,62.0,5.59
+1122,36.0,Marketing,Bachelors,East,No,17.6,"$8,737.04",7.1,73.8,2.58
+1346,58.0,Support,Bachelors,North,Yes,31.7,"$9,425.77",5.8,79.2,
+1637,44.0,Support,Bachelors,South,No,26.2,"$8,348.85",6.7,79.5,
+1050,39.0,Sales,Bachelors,South,No,19.0,"$7,972.14",7.0,,1.41
+1324,22.0,Marketing,PhD,East,Yes,0.0,"$5,902.82",7.1,56.4,2.28
+1395,53.0,Sales,High School,West,Yes,33.5,"$10,373.89",7.6,66.4,0.42
+1198,52.0,Finance,Masters,East,No,34.7,"$12,129.80",4.9,45.2,3.18
+1352,31.0,Sales,Bachelors,East,No,11.7,"$6,788.30",,,0.2
+1561,39.0,Sales,Masters,North,Yes,15.4,"$7,555.41",,81.0,0.98
+1610,42.0,Engineering,PhD,North,No,17.4,"$37,614.47",7.0,67.0,10.78
+1413,36.0,Sales,Bachelors,North,Yes,10.8,"$6,989.13",7.7,92.2,4.31
+1117,36.0,Support,Bachelors,South,Yes,9.1,"$6,558.88",9.7,38.1,2.99
+1576,36.0,Marketing,Masters,East,Yes,18.7,"$8,617.42",5.7,79.2,2.75
+1386,23.0,HR,Masters,East,Yes,0.7,"$6,008.64",5.8,,4.22
+1527,34.0,HR,Bachelors,West,Yes,9.5,"$6,902.25",6.5,97.2,1.12
+1619,45.0,Sales,Bachelors,West,Yes,22.3,"$8,511.85",6.9,83.5,6.68
+1378,37.0,Engineering,Bachelors,West,No,19.2,"$11,187.97",7.8,83.3,0.08
+1440,34.0,Marketing,Bachelors,North,No,8.7,"$6,918.07",4.7,47.1,0.27
+1063,58.0,Marketing,Masters,North,No,31.7,"$10,470.81",4.6,72.7,0.25
+1407,29.0,Engineering,PhD,East,No,4.7,"$9,490.05",7.4,85.8,
+1335,51.0,Sales,Bachelors,West,No,30.6,"$9,938.79",5.5,67.2,2.83
+1136,52.0,Sales,Bachelors,North,Yes,22.9,"$8,688.48",8.4,72.2,3.97
+1373,41.0,Engineering,PhD,East,Yes,23.0,"$12,614.43",6.7,63.4,
+1393,46.0,Marketing,Masters,North,Yes,24.1,"$9,145.77",,100.0,0.24
+1262,39.0,Finance,Masters,West,Yes,13.2,"$8,574.07",5.3,85.6,
+1275,49.0,Support,Bachelors,South,Yes,26.3,"$8,600.12",7.7,78.8,0.72
+1403,51.0,Support,Bachelors,West,Yes,35.3,"$9,700.32",6.6,82.3,
+1091,41.0,Sales,High School,East,No,23.8,"$9,054.69",,56.3,0.44
+1429,31.0,Sales,Masters,North,No,6.1,"$6,076.34",7.8,,
+1030,47.0,Support,Bachelors,North,No,26.2,"$8,852.13",9.1,52.2,4.19
+1286,33.0,Engineering,Bachelors,North,Yes,11.2,"$10,328.78",7.3,77.2,
+1517,44.0,Engineering,Masters,East,No,27.2,"$12,628.98",6.5,69.1,0.01
+1202,57.0,HR,Bachelors,South,No,35.0,"$10,805.50",,75.6,4.75
+1532,44.0,Support,High School,South,Yes,19.9,"$7,887.64",6.9,69.0,
+1632,37.0,Finance,Bachelors,North,No,15.5,"$9,081.51",8.9,77.1,8.84
+1446,44.0,Support,Bachelors,West,No,26.8,"$8,405.67",2.9,55.8,15.14
+1307,43.0,Engineering,Masters,East,No,25.5,"$13,153.29",4.2,58.6,17.8
+1161,32.0,Sales,High School,North,No,8.5,"$6,590.50",5.5,65.5,
+1248,41.0,Engineering,Bachelors,South,No,16.9,"$11,224.00",,48.5,0.4
+1573,36.0,Engineering,Masters,South,No,11.1,"$10,469.24",9.1,83.9,
+1104,40.0,HR,Bachelors,West,Yes,19.8,"$8,827.59",7.1,67.6,0.33
+1415,33.0,Sales,Bachelors,South,No,14.1,"$7,817.62",7.2,51.2,0.45
+1334,51.0,Finance,Bachelors,South,No,25.9,"$10,462.92",8.4,,
+1430,,Finance,Bachelors,West,Yes,6.7,"$7,677.75",,83.1,
+1166,22.0,Engineering,Masters,East,No,0.0,"$8,773.90",8.1,45.2,
+1591,33.0,HR,Masters,North,Yes,4.8,"$6,092.07",8.6,74.7,
+1081,34.0,Support,Bachelors,North,No,15.1,"$7,148.97",5.6,82.4,0.22
+1340,48.0,HR,Masters,North,No,22.9,"$8,634.02",8.2,60.0,7.82
+1643,52.0,Sales,Bachelors,West,No,30.2,"$9,579.15",5.9,91.3,
+1004,58.0,Support,Bachelors,East,Yes,38.5,"$10,163.84",8.7,69.4,
+1531,21.0,Support,Masters,South,No,8.7,"$6,065.36",5.8,74.6,4.29
+1010,30.0,Engineering,Bachelors,West,No,8.0,"$9,902.88",5.9,65.2,
+1474,42.0,Sales,Bachelors,West,Yes,18.4,"$7,874.42",10.0,69.6,
+1434,36.0,Finance,Masters,North,Yes,17.0,"$9,084.94",9.4,60.1,2.41
+1342,40.0,HR,Masters,West,No,22.0,"$8,904.86",9.3,69.1,1.91
+1512,30.0,Finance,Masters,West,Yes,8.1,"$8,654.26",4.6,84.9,
+1180,30.0,Support,Bachelors,North,No,9.4,"$6,210.40",5.0,58.3,0.32
+1363,51.0,Sales,Bachelors,West,No,26.8,"$9,180.15",7.5,52.2,
+1287,53.0,Sales,PhD,West,Yes,29.4,"$9,592.53",6.3,90.6,1.94
+1196,22.0,Sales,Masters,West,No,0.0,"$5,260.87",6.6,80.7,13.28
+1494,80.0,Engineering,Masters,North,Yes,24.1,"$12,127.49",6.2,86.5,2.51
+1374,22.0,Engineering,Bachelors,West,No,0.0,"$8,450.20",7.7,78.1,6.02
+1274,33.0,Marketing,Bachelors,North,Yes,5.7,"$6,749.27",,,8.12
+1190,48.0,Engineering,Bachelors,West,No,26.9,"$12,458.74",9.5,87.4,
+1041,45.0,Engineering,Bachelors,North,No,17.2,"$11,695.49",7.9,74.1,1.99
+1269,31.0,Sales,Bachelors,West,Yes,8.2,"$6,671.73",,79.1,
+1006,42.0,HR,Bachelors,West,No,19.1,"$8,849.70",7.4,83.5,
+1635,30.0,Sales,PhD,East,No,11.1,"$7,030.36",6.2,54.1,
+1344,22.0,Marketing,Bachelors,North,No,0.0,"$5,744.38",7.0,53.8,1.01
+1360,42.0,Marketing,Bachelors,South,No,21.5,"$8,736.74",8.3,73.8,4.18
+1039,36.0,Engineering,Masters,North,Yes,20.7,"$11,649.85",8.2,,0.03
+1411,49.0,Support,PhD,South,No,24.0,"$8,317.17",7.1,91.4,
+1612,43.0,Support,Bachelors,South,Yes,18.8,"$7,901.71",7.0,96.4,
+1638,,Support,Bachelors,West,No,10.9,"$6,438.46",8.7,83.3,
+1554,42.0,Finance,Masters,West,Yes,14.4,"$8,740.46",6.8,74.3,1.01
+1163,44.0,Engineering,PhD,South,No,22.3,"$12,035.93",5.1,76.4,3.68
+1068,49.0,Engineering,High School,West,Yes,26.9,"$13,203.84",9.0,,
+1125,45.0,Sales,High School,West,No,24.0,"$8,862.16",6.9,,0.21
+1040,42.0,Support,Bachelors,West,No,18.9,"$7,916.10",8.5,61.9,2.88
+1396,32.0,Engineering,Bachelors,East,No,6.8,"$9,683.15",7.7,,1.46
+1508,54.0,Finance,High School,South,No,26.4,"$10,778.79",8.4,77.6,22.57
+1242,34.0,Support,PhD,East,No,14.0,"$7,021.44",7.7,71.5,1.32
+1148,37.0,Marketing,Bachelors,West,No,13.8,"$7,883.06",7.0,62.6,
+1400,33.0,Engineering,Bachelors,East,No,16.8,"$11,106.26",8.1,82.7,13.47
+1447,51.0,HR,Bachelors,East,No,29.9,"$10,038.21",5.6,58.5,1.03
+1594,45.0,Marketing,High School,North,No,18.7,"$8,325.64",7.1,55.9,1.87
+1480,40.0,Engineering,PhD,South,No,19.0,"$11,866.28",3.7,80.4,5.32
+1334,51.0,Finance,Bachelors,South,No,25.9,"$10,462.92",8.4,,
+1469,35.0,Sales,Bachelors,North,Yes,10.7,"$6,711.91",5.8,,0.24
+1032,41.0,HR,Bachelors,East,Yes,15.6,"$7,792.42",10.0,49.7,3.91
+1541,32.0,HR,Bachelors,South,Yes,9.8,"$7,074.29",6.6,60.0,
+1433,29.0,Support,PhD,East,No,4.9,"$5,675.51",8.1,78.9,
+1313,23.0,Engineering,High School,South,No,3.2,"$9,031.89",8.0,90.3,1.51
+1096,42.0,Marketing,Bachelors,South,Yes,16.9,"$8,282.84",6.1,73.9,
+1553,34.0,Sales,Masters,North,No,10.4,"$6,706.72",6.9,57.6,
+1258,40.0,Sales,High School,West,No,17.8,"$7,732.21",8.8,55.8,7.27
+1188,23.0,Sales,PhD,North,No,0.0,"$5,216.55",6.4,,4.8
+1557,32.0,Engineering,Masters,West,No,5.8,"$33,007.08",5.4,87.6,
+1147,36.0,Engineering,High School,North,No,9.5,"$10,143.29",6.4,74.1,
+1487,44.0,Engineering,Bachelors,North,No,28.8,"$12,965.94",8.0,57.8,2.7
+1075,35.0,Sales,High School,West,No,9.5,"$7,095.06",6.4,,5.09
+1497,50.0,Engineering,Masters,North,Yes,32.6,"$13,563.33",5.0,83.4,
+1448,34.0,Marketing,Masters,West,Yes,11.5,"$7,448.72",6.4,83.9,
+1062,44.0,Engineering,Masters,West,No,27.3,"$12,477.59",7.6,70.4,0.81
+1503,36.0,HR,High School,North,Yes,14.8,"$7,885.84",6.0,,5.82
+1290,39.0,Sales,High School,North,Yes,18.9,"$8,414.93",7.3,56.0,
+1077,30.0,Engineering,Bachelors,West,No,5.7,"$10,325.57",7.4,69.2,
+1604,23.0,Support,Masters,North,Yes,0.0,"$4,618.59",,87.4,
+1398,52.0,Engineering,Masters,South,Yes,30.5,"$12,945.04",4.8,,1.64
+1187,52.0,Engineering,Masters,South,No,29.4,"$13,168.99",6.8,67.4,0.52
+1351,41.0,Marketing,High School,North,Yes,20.8,"$8,887.32",7.4,77.7,
+1069,34.0,Sales,Masters,North,No,12.9,"$7,298.21",6.5,68.6,0.03
+1418,29.0,Support,Masters,North,No,8.5,"$5,772.23",5.5,47.7,2.86
+1605,60.0,HR,High School,South,No,37.9,"$10,991.88",5.9,59.4,
+1119,36.0,Engineering,High School,East,No,6.8,"$9,468.16",3.9,56.4,
+1439,25.0,Support,Bachelors,South,Yes,2.6,"$4,958.50",5.7,,4.9
+1005,40.0,Sales,Masters,West,No,16.8,"$7,744.34",5.9,83.0,3.81
+1017,31.0,Marketing,Masters,West,Yes,7.7,"$6,909.07",8.2,60.3,2.04
+1526,42.0,Engineering,Masters,West,No,18.8,"$11,646.79",8.1,61.7,
+1422,53.0,Sales,Masters,North,No,29.7,"$10,092.03",6.5,77.5,0.44
+1263,46.0,Engineering,PhD,West,Yes,20.8,"$45,268.47",7.5,68.0,1.16
+1020,42.0,Marketing,Bachelors,West,Yes,22.0,"$8,907.32",7.0,46.1,
+1600,38.0,Marketing,PhD,South,No,19.9,"$8,850.83",4.8,69.9,1.23
+1201,48.0,Support,Bachelors,West,Yes,28.6,"$9,373.27",8.7,,0.51
+1405,38.0,HR,Bachelors,East,No,17.2,"$7,925.09",8.1,72.1,
+1636,25.0,Sales,PhD,East,No,1.5,"$5,226.64",6.4,56.8,
+1118,22.0,Support,High School,East,Yes,0.2,"$4,675.92",7.4,,6.5
+1444,38.0,Sales,Bachelors,East,Yes,12.6,"$7,010.32",7.4,74.5,1.94
+1079,34.0,Marketing,Bachelors,East,No,19.5,"$9,035.59",6.8,,
+1057,38.0,Engineering,Masters,North,No,13.4,"$11,295.04",,88.8,0.64
+1058,48.0,Marketing,Masters,South,No,22.5,"$9,060.23",6.2,74.6,6.77
+1181,85.0,Finance,Masters,South,No,4.4,"$7,274.65",6.2,86.4,
+1538,,Sales,PhD,South,Yes,10.6,"$6,703.96",7.4,66.2,
+1043,,Support,Bachelors,North,Yes,8.5,"$5,714.51",8.8,65.8,
+1134,49.0,Engineering,Masters,North,No,27.8,"$12,572.01",5.8,63.3,0.48
+1315,,Engineering,PhD,South,Yes,26.1,"$12,459.91",9.1,56.9,
+1545,45.0,Sales,Masters,West,No,19.3,"$7,785.36",7.0,87.2,1.64
+1251,38.0,Support,Bachelors,North,No,14.3,"$6,625.38",4.2,77.2,6.27
+1431,33.0,HR,Bachelors,East,No,9.5,"$6,589.06",,86.6,0.37
+1603,55.0,Finance,High School,West,Yes,33.7,"$11,654.31",,,
+1476,46.0,Engineering,Bachelors,East,No,23.8,"$12,215.11",8.7,81.4,
+1193,32.0,Sales,Bachelors,East,No,8.7,"$6,667.34",6.1,69.2,0.66
+1408,37.0,Finance,Bachelors,South,Yes,16.7,"$9,258.89",8.5,74.9,4.4
+1423,33.0,Sales,Bachelors,South,No,11.2,"$6,597.88",6.1,78.0,6.38
+1389,34.0,Sales,Bachelors,West,No,7.2,"$6,083.29",8.0,,
+1558,43.0,Engineering,Bachelors,West,No,22.0,"$11,901.75",5.6,43.6,1.19
+1356,29.0,Marketing,Bachelors,West,No,8.3,"$6,806.86",3.5,71.1,0.43
+1158,24.0,Support,Bachelors,East,Yes,5.7,"$5,554.36",7.5,70.7,
+1449,42.0,Sales,Masters,North,No,17.7,"$8,447.36",6.2,96.6,
+1412,35.0,Support,Masters,East,No,17.1,"$7,579.55",6.9,95.6,4.3
+1642,43.0,Finance,Masters,North,No,19.7,"$9,402.70",,70.2,
+1495,28.0,Support,Bachelors,West,Yes,5.6,"$5,507.88",,54.1,4.17
+1103,51.0,Engineering,Bachelors,North,No,29.4,"$12,808.77",8.7,58.6,
+1053,55.0,Support,Bachelors,West,No,32.2,"$9,541.52",6.0,57.5,11.23
+1428,50.0,Finance,Bachelors,East,No,25.2,"$10,431.40",10.0,81.1,8.89
+1319,45.0,Engineering,Bachelors,West,Yes,26.5,"$13,165.71",,38.2,3.33
+1098,48.0,Sales,Bachelors,South,No,26.1,"$8,987.69",6.8,80.5,5.34
+1354,49.0,Marketing,Bachelors,South,No,25.2,"$9,202.70",7.7,91.2,11.91
+1129,40.0,Sales,Masters,East,No,22.6,"$8,830.79",10.0,75.1,
+1178,41.0,HR,Bachelors,West,Yes,21.7,"$8,602.70",6.8,52.1,4.45
+1111,39.0,Engineering,Masters,North,No,18.3,"$11,086.00",8.4,57.6,
+1556,52.0,Engineering,High School,West,No,34.8,"$14,119.05",8.0,76.6,3.26
+1401,37.0,Engineering,Masters,West,Yes,18.4,"$11,586.46",9.0,59.5,
+1300,55.0,Marketing,Bachelors,North,Yes,30.7,"$10,199.14",9.3,67.3,
+1460,25.0,Marketing,Bachelors,South,No,2.8,"$5,922.81",5.8,58.5,3.5
+1143,35.0,HR,Bachelors,East,Yes,9.8,"$6,756.88",8.3,98.5,
+1539,46.0,Sales,High School,South,No,25.1,"$8,883.38",,84.9,0.2
+1007,,Support,Masters,East,No,3.3,"$5,119.48",4.9,79.5,
+1268,45.0,Sales,High School,North,No,23.7,"$8,723.04",6.3,66.1,6.94
+1519,22.0,Sales,Masters,North,No,3.1,"$5,450.59",7.7,68.0,
+1238,37.0,Support,High School,West,No,10.2,"$6,271.26",6.8,82.7,2.42
+1384,45.0,Engineering,PhD,West,Yes,25.6,"$12,219.83",8.4,85.2,
+1059,40.0,Sales,Bachelors,East,Yes,14.8,"$7,455.77",8.9,63.3,4.21
+1233,33.0,HR,PhD,South,Yes,10.6,"$6,850.49",6.1,65.8,2.55
+1611,37.0,Marketing,High School,West,No,11.8,"$7,308.67",,56.9,0.92
+1575,32.0,Finance,Bachelors,West,No,10.1,"$8,132.33",7.5,45.4,
+1204,,Sales,PhD,North,No,19.8,"$8,289.18",,38.1,8.51
+1465,22.0,Marketing,PhD,East,No,4.9,"$6,220.15",6.9,97.1,19.54
+1285,35.0,Marketing,Masters,South,No,15.1,"$8,032.76",7.7,92.2,
+1353,29.0,Marketing,High School,West,No,7.2,"$6,825.56",5.7,78.6,1.16
+1003,43.0,Finance,Masters,West,Yes,22.6,"$9,809.49",5.7,52.9,8.97
+1329,22.0,Marketing,Bachelors,North,No,0.0,"$15,285.74",4.7,100.0,0.4
+1218,29.0,Sales,Masters,West,Yes,4.2,"$5,579.96",6.9,,0.24
+1047,28.0,Engineering,Masters,East,No,5.3,"$9,589.12",7.3,93.9,
+1226,33.0,HR,Masters,West,Yes,14.0,"$7,537.34",8.6,,1.01
+1019,46.0,Finance,Bachelors,East,Yes,26.0,"$10,668.07",6.6,66.7,0.81
+1169,41.0,Engineering,Masters,South,No,20.5,"$11,411.35",9.5,74.5,4.54
+1459,32.0,Support,PhD,South,Yes,11.2,"$6,093.05",6.7,76.0,
+1293,51.0,HR,Bachelors,South,No,30.9,"$10,179.18",7.3,49.5,0.59
+1618,43.0,Engineering,PhD,South,Yes,21.8,"$11,923.30",6.3,79.4,
+1507,26.0,Engineering,High School,West,No,3.0,"$8,933.87",6.9,91.5,7.06
+1496,40.0,Marketing,Bachelors,West,Yes,18.8,"$8,533.85",5.3,81.9,
+1284,46.0,Engineering,Masters,North,No,28.4,"$12,820.66",6.1,62.3,2.48
+1625,47.0,HR,High School,East,Yes,23.2,"$8,676.78",3.9,77.3,1.6
+1492,39.0,Marketing,Masters,South,Yes,16.9,"$8,665.42",6.2,74.6,
+1606,30.0,Support,Masters,East,Yes,9.5,"$6,376.75",7.5,46.0,
+1094,58.0,Engineering,High School,South,No,29.9,"$13,154.74",6.5,64.2,0.25
+1214,47.0,Finance,Bachelors,West,No,24.5,"$10,201.76",6.9,70.5,
+1259,38.0,Sales,Bachelors,East,No,17.9,"$8,338.30",7.0,54.7,5.35
+1292,38.0,Sales,Masters,East,No,18.6,"$8,025.50",7.6,70.2,1.87
+1629,40.0,Marketing,Masters,East,No,21.6,"$8,737.05",5.2,83.9,2.39
+1107,24.0,Engineering,Bachelors,East,Yes,0.0,"$8,927.98",6.1,75.3,
+1116,51.0,Finance,High School,South,Yes,27.1,"$10,451.74",7.3,,
+1437,32.0,Sales,Masters,West,Yes,8.1,"$6,864.02",8.0,62.9,
+1366,31.0,Engineering,Bachelors,East,Yes,5.7,"$9,207.33",7.5,48.0,
+1372,49.0,Engineering,Masters,North,Yes,29.5,"$12,754.67",7.4,61.8,1.83
+1037,31.0,Sales,Bachelors,South,No,3.3,"$5,771.98",9.5,78.7,6.99
+1416,43.0,Engineering,PhD,South,Yes,21.7,"$11,865.76",5.6,77.3,0.31
+1205,54.0,Sales,Bachelors,North,No,28.9,"$9,645.20",7.3,90.6,0.24
+1245,38.0,Marketing,Masters,South,No,19.7,"$8,821.91",8.1,89.6,0.32
+1222,35.0,Engineering,High School,West,Yes,9.0,"$9,638.68",,55.4,0.4
+1247,,Marketing,Bachelors,West,No,11.4,"$7,126.52",8.1,59.0,3.85
+1521,48.0,Finance,Bachelors,East,No,24.2,"$10,262.72",6.3,72.1,3.45
+1466,26.0,Support,High School,East,Yes,5.0,"$5,486.19",5.9,72.0,
+1250,30.0,Engineering,Bachelors,South,No,7.3,"$9,988.15",7.4,74.6,4.03
+1123,32.0,Sales,Bachelors,North,No,3.0,"$5,614.32",7.3,62.7,
+1568,31.0,Sales,Bachelors,South,No,8.8,"$6,413.34",5.7,53.7,
+1165,38.0,Marketing,High School,North,Yes,16.2,"$8,499.40",6.0,46.1,
+1574,43.0,Support,Masters,South,Yes,22.6,"$8,166.65",8.6,90.4,1.97
+1542,22.0,Marketing,Bachelors,South,No,0.0,"$5,499.62",9.9,60.0,
+1552,43.0,Sales,Bachelors,North,No,19.9,"$7,835.54",6.9,45.7,1.18
+1240,32.0,Sales,Masters,West,No,9.1,"$6,599.99",6.9,55.2,
+1505,27.0,Marketing,Bachelors,East,Yes,5.8,"$6,584.10",7.5,60.0,11.16
+1529,39.0,Support,Bachelors,East,No,13.8,"$6,621.55",,96.7,5.8
+1296,36.0,Finance,Bachelors,East,No,10.8,"$8,552.50",9.2,76.2,1.25
+1564,33.0,Marketing,Bachelors,South,Yes,11.9,"$7,356.25",9.3,73.5,0.68
+1071,46.0,Sales,Bachelors,West,No,23.3,"$9,673.52",8.5,77.5,5.68
+1397,32.0,Finance,Bachelors,South,Yes,11.0,"$8,246.84",9.0,75.0,
+1365,44.0,Support,Bachelors,East,Yes,25.5,"$8,342.10",,66.5,4.03
+1099,,Sales,Masters,North,No,17.8,"$8,216.78",7.5,,5.19
+1383,36.0,Support,Bachelors,West,Yes,9.1,"$5,826.99",7.6,75.9,7.37
+1616,36.0,Support,Masters,South,Yes,17.6,"$7,273.43",9.6,42.2,0.21
+1031,27.0,Support,High School,West,No,4.9,"$5,345.23",7.7,72.7,
+1341,,Sales,Masters,East,Yes,6.6,"$6,028.15",7.4,68.8,3.42
+1456,49.0,Sales,Masters,South,Yes,26.9,"$9,365.95",6.9,58.9,0.18
+1128,38.0,Sales,Bachelors,North,No,10.1,"$6,997.01",5.8,,
+1560,41.0,Engineering,Bachelors,West,No,22.8,"$12,291.42",8.1,65.3,0.8
+1002,39.0,Engineering,Masters,North,Yes,21.0,"$11,829.43",7.7,,
+1376,33.0,Sales,Bachelors,South,No,7.6,"$6,558.06",3.0,58.3,1.59
+1028,44.0,Sales,Bachelors,North,Yes,18.9,"$23,657.70",9.2,100.0,3.66
+1090,42.0,Marketing,Bachelors,West,Yes,19.9,"$8,333.57",8.8,80.3,
+1309,39.0,Engineering,Bachelors,North,No,15.3,"$10,719.99",6.3,50.4,2.64
+1074,33.0,Engineering,PhD,North,No,8.8,"$9,594.86",6.1,88.0,1.83
+1185,33.0,Support,Masters,West,Yes,11.9,"$6,389.80",4.1,,
+1172,34.0,Marketing,Bachelors,North,No,10.5,"$7,096.94",6.5,48.8,
+1510,38.0,Sales,Masters,North,No,16.2,"$7,530.67",8.0,61.5,11.95
+1530,48.0,Engineering,Bachelors,West,No,30.5,"$13,306.13",3.4,81.3,
+1501,35.0,Support,High School,South,Yes,14.8,"$6,695.63",7.4,73.0,
+1409,38.0,Sales,Bachelors,East,No,12.1,"$7,377.80",9.5,56.9,
+1092,35.0,Support,High School,East,Yes,8.8,"$6,331.66",8.0,,2.17
+1426,28.0,Finance,Bachelors,East,No,4.3,"$7,161.90",3.3,47.4,4.49
+1371,31.0,Support,Masters,East,No,8.0,"$5,581.01",6.0,81.1,
+1578,46.0,Marketing,Bachelors,South,No,18.2,"$8,237.73",5.1,66.1,
+1126,44.0,Engineering,Masters,East,No,18.3,"$11,761.18",7.8,63.9,7.39
+1648,28.0,Marketing,Bachelors,North,No,6.9,"$6,719.08",8.6,,4.02
+1316,42.0,Engineering,Bachelors,South,Yes,24.3,"$11,972.56",8.0,,
+1377,51.0,HR,PhD,South,No,29.1,"$10,038.98",7.2,87.9,4.7
+1013,37.0,Marketing,Bachelors,North,No,14.6,"$7,782.92",9.8,,14.67
+1579,29.0,Finance,PhD,North,Yes,4.8,"$7,994.02",9.1,51.8,
+1427,22.0,Engineering,Bachelors,North,Yes,0.0,"$9,452.21",5.7,39.9,0.7
+1223,34.0,Support,PhD,North,No,14.0,"$7,013.51",6.0,66.7,10.59
+1566,51.0,Support,Bachelors,South,Yes,23.1,"$35,699.00",7.2,46.2,
+1239,27.0,Sales,Bachelors,North,No,2.7,"$5,808.00",5.1,59.7,4.54
+1115,46.0,Sales,PhD,East,No,19.8,"$7,969.53",7.0,,
+1534,45.0,Marketing,Bachelors,North,No,21.5,"$9,044.22",7.3,71.1,10.24
+1310,36.0,Sales,Bachelors,South,No,11.9,"$7,468.45",5.1,94.4,
+1144,30.0,Marketing,High School,West,Yes,6.9,"$6,398.31",7.8,48.4,20.72
+1424,41.0,Sales,PhD,North,Yes,20.3,"$8,282.19",6.3,55.2,
+1015,35.0,Engineering,Bachelors,North,No,14.0,"$10,518.03",6.7,,
+1630,31.0,Finance,Bachelors,West,No,8.5,"$7,799.51",6.4,,
+1055,22.0,Support,Bachelors,West,No,0.9,"$4,552.44",7.0,68.6,
+1209,39.0,Sales,Bachelors,West,Yes,18.6,"$7,958.04",5.4,85.3,0.17
+1345,42.0,Support,PhD,West,No,17.0,"$7,361.83",7.5,73.4,
+1132,39.0,HR,PhD,East,Yes,22.9,"$8,882.82",5.1,84.8,0.21
+1381,30.0,Marketing,Bachelors,East,No,7.0,"$7,619.48",9.1,40.3,0.8
+1175,43.0,Sales,Masters,East,No,16.7,"$7,522.28",,63.7,3.32
+1528,,HR,Bachelors,West,No,3.1,"$6,064.94",7.4,70.1,
+1192,31.0,Engineering,Masters,North,No,8.2,"$10,019.28",7.6,88.8,2.55
+1271,58.0,Sales,High School,South,Yes,34.9,"$10,446.22",6.9,,7.31
+1435,42.0,Sales,PhD,North,Yes,21.3,"$8,277.12",7.5,42.3,2.97
+1124,52.0,Engineering,Masters,South,No,27.5,"$13,117.53",7.0,60.3,
+1139,42.0,Support,Masters,South,Yes,19.6,"$7,684.31",4.7,59.3,4.86
+1613,40.0,HR,Bachelors,South,Yes,17.2,"$8,128.75",8.3,54.6,0.62
+1052,26.0,Sales,Bachelors,West,No,1.6,"$5,574.15",5.6,,3.63
+1221,61.0,Engineering,Masters,East,No,42.4,"$14,863.04",6.8,82.0,2.17
+1113,46.0,Engineering,High School,West,Yes,19.2,"$11,860.91",6.2,42.7,10.68
+1266,45.0,Sales,PhD,North,Yes,23.6,"$8,687.52",6.2,83.4,2.65
+1473,39.0,Sales,Masters,North,No,16.5,"$7,670.06",6.1,67.3,3.07
+1273,22.0,Sales,Masters,West,Yes,0.3,"$5,089.10",6.2,81.9,3.05
+1343,42.0,Finance,Masters,West,No,16.4,"$9,653.65",5.1,100.0,
+1257,30.0,Finance,Bachelors,East,No,10.0,"$7,848.61",7.0,,0.65
+1183,35.0,Marketing,Bachelors,West,No,14.4,"$7,981.57",9.3,54.3,
+1106,30.0,Support,Bachelors,South,No,8.3,"$6,104.80",6.7,90.8,
+1301,44.0,Support,Bachelors,East,Yes,27.3,"$8,704.57",5.8,27.0,1.24
+1058,48.0,Marketing,Masters,South,No,22.5,"$9,060.23",6.2,74.6,6.77
+1647,32.0,Sales,High School,West,No,9.9,"$6,892.82",5.7,59.4,2.02
+1241,31.0,Finance,Bachelors,South,No,6.8,"$8,023.95",4.8,,2.02
+1231,39.0,Sales,Bachelors,West,No,16.9,"$7,678.61",8.0,69.3,2.51
+1154,38.0,Marketing,Bachelors,East,Yes,18.5,"$8,299.19",6.3,76.4,0.61
+1327,37.0,Finance,Bachelors,East,Yes,11.5,"$8,239.19",6.8,53.5,
+1206,24.0,Engineering,Bachelors,West,No,3.4,"$8,941.98",7.1,83.6,2.91
+1484,41.0,Engineering,Masters,North,Yes,22.1,"$11,728.86",7.4,,2.65
+1295,23.0,Finance,Bachelors,South,No,4.6,"$7,290.15",6.2,65.2,3.95
+1151,22.0,Finance,Masters,North,No,0.0,"$7,330.12",8.5,,
+1500,33.0,Marketing,Masters,South,Yes,11.0,"$7,138.68",8.4,72.8,0.1
+1164,48.0,Sales,Bachelors,North,No,28.5,"$10,529.97",5.7,73.5,2.5
+1168,23.0,Finance,Bachelors,West,Yes,3.7,"$6,893.23",6.4,57.8,6.72
+1436,29.0,Sales,Masters,West,No,8.5,"$6,912.62",6.3,71.8,4.15
+1207,47.0,Sales,Masters,South,No,28.3,"$9,680.48",6.4,54.3,5.43
+1189,25.0,Support,Bachelors,North,Yes,2.5,"$5,060.74",5.3,41.7,
+1483,22.0,Marketing,High School,South,No,1.6,"$6,025.79",,57.4,0.62
+1325,42.0,Finance,Bachelors,South,No,21.3,"$9,696.94",8.2,,0.29
+1146,28.0,Engineering,Bachelors,South,No,9.7,"$10,162.47",7.2,75.8,2.53
+1475,30.0,Engineering,Bachelors,East,Yes,10.8,"$9,966.60",8.2,86.1,3.94
+1227,34.0,Sales,Bachelors,South,No,13.6,"$7,157.74",7.4,83.4,1.74
+1217,43.0,Sales,Masters,East,No,23.0,"$8,544.72",7.3,64.2,
+1195,22.0,Sales,High School,North,No,2.5,"$5,693.86",6.5,47.9,0.78
+1203,33.0,Marketing,Masters,West,No,16.2,"$8,261.82",5.8,42.9,0.66
+1299,22.0,Support,Masters,West,Yes,0.0,"$4,619.27",6.6,77.0,3.84
+1595,46.0,Sales,Bachelors,East,Yes,21.2,"$8,279.04",5.0,59.9,
+1598,44.0,Marketing,Bachelors,West,No,18.7,"$8,274.79",9.6,74.8,0.33
+1524,36.0,Marketing,Masters,East,No,19.6,"$8,566.62",6.2,74.4,1.55
+1513,36.0,Sales,Masters,North,No,15.5,"$7,570.91",7.3,57.6,
+1485,37.0,Sales,PhD,South,Yes,14.5,"$7,761.07",8.7,94.4,0.58
+1390,22.0,Finance,High School,South,No,1.5,"$6,529.71",,83.0,
+1540,33.0,Finance,Masters,South,No,14.3,"$8,855.37",6.8,88.4,5.59
+1176,34.0,Sales,High School,South,No,9.0,"$6,588.33",7.6,56.0,6.28
+1602,,Support,High School,West,No,39.4,"$10,859.38",8.0,80.9,
+1095,36.0,Engineering,Bachelors,West,No,14.1,"$10,639.17",9.2,60.0,1.09
+1230,21.0,Sales,Bachelors,North,No,12.2,"$7,028.99",8.5,62.8,
+1481,36.0,Engineering,PhD,South,No,22.1,"$11,830.30",,47.1,
+1281,46.0,Sales,Bachelors,North,No,26.3,"$8,794.33",,48.7,
+1518,31.0,Support,Bachelors,East,No,11.4,"$6,369.39",6.0,63.6,9.27
+1404,31.0,Sales,High School,West,No,11.3,"$6,681.89",8.0,85.8,
+1502,30.0,Finance,Masters,North,Yes,6.1,"$7,447.16",7.3,71.8,
+1229,31.0,Marketing,Masters,East,No,5.8,"$6,739.15",8.8,88.3,
+1101,43.0,Finance,Bachelors,West,Yes,20.0,"$10,352.93",5.0,62.2,2.58
+1291,33.0,Finance,Bachelors,North,Yes,10.0,"$8,015.99",6.9,70.2,2.19
+1597,41.0,Support,Masters,North,No,19.9,"$7,846.53",,68.9,0.67
+1445,,Engineering,Bachelors,North,No,7.7,"$9,535.78",5.4,,3.66
+1367,57.0,Support,Masters,North,No,37.6,"$10,046.49",7.6,55.0,0.79
+1633,39.0,Sales,Bachelors,East,No,15.7,"$8,003.26",6.2,64.2,
+1054,33.0,Support,Masters,South,No,15.1,"$7,075.33",7.3,57.2,1.3
+1228,43.0,Marketing,Bachelors,West,No,18.7,"$8,431.41",7.5,59.8,6.47
+1392,38.0,Sales,Masters,East,Yes,24.2,"$8,810.12",7.2,61.9,
+1645,43.0,Marketing,Bachelors,East,No,19.0,"$8,645.18",6.0,81.9,6.2
+1263,46.0,Engineering,PhD,West,Yes,20.8,"$45,268.47",7.5,68.0,1.16
+1155,37.0,Sales,High School,West,No,14.2,"$7,398.85",7.5,86.2,1.73
+1252,22.0,Finance,Bachelors,South,Yes,0.1,"$6,500.43",7.0,49.9,
+1276,43.0,Engineering,Bachelors,East,No,20.2,"$11,542.88",7.0,82.0,1.35
+1187,52.0,Engineering,Masters,South,No,29.4,"$13,168.99",6.8,67.4,0.52
+1159,33.0,Support,Bachelors,South,Yes,9.9,"$6,054.86",7.7,56.6,1.08
+1272,37.0,Sales,Masters,West,No,12.5,"$6,831.28",8.4,70.2,
+1045,34.0,Finance,PhD,South,No,9.3,"$8,292.93",7.8,64.8,
+1169,41.0,Engineering,Masters,South,No,20.5,"$11,411.35",9.5,74.5,4.54
+1114,47.0,Marketing,High School,East,No,24.3,"$9,369.41",7.0,86.8,3.79
+1025,48.0,Support,Bachelors,West,No,23.6,"$8,353.42",8.8,71.3,1.24
+1212,29.0,Marketing,Masters,South,Yes,10.5,"$7,136.99",6.1,86.4,
+1109,38.0,Sales,High School,East,Yes,15.2,"$7,500.96",6.8,82.7,1.44
+1321,34.0,Finance,Bachelors,South,No,8.8,"$7,614.51",6.8,47.8,0.41
+1170,30.0,HR,Bachelors,West,No,7.4,"$6,987.81",7.5,81.7,7.1
+1080,41.0,Support,Bachelors,South,No,25.4,"$8,493.23",5.3,,4.63
+1051,22.0,Sales,Bachelors,West,No,0.0,"$4,926.43",5.9,48.0,
+1522,47.0,Engineering,Masters,West,Yes,27.7,"$12,700.86",8.4,,2.71
+1085,40.0,Sales,High School,East,Yes,12.1,"$7,055.98",6.5,86.8,0.68
+1009,52.0,Sales,Bachelors,East,No,26.6,"$9,327.39",7.4,70.4,0.58
+1033,40.0,Engineering,High School,West,No,17.9,"$11,371.14",5.4,52.0,0.82
+1100,22.0,HR,Masters,North,No,0.0,"$5,485.26",6.4,75.6,
+1110,34.0,Finance,Bachelors,West,No,16.0,"$9,027.84",6.4,86.9,13.45
+1137,29.0,HR,Masters,East,Yes,8.1,"$18,366.21",7.6,78.4,8.01
+1331,35.0,Support,PhD,North,No,14.0,"$6,446.21",7.4,68.6,
+1223,34.0,Support,PhD,North,No,14.0,"$7,013.51",6.0,66.7,10.59
+1029,22.0,Sales,High School,East,Yes,1.6,"$5,190.51",6.5,71.4,
+1288,40.0,Engineering,High School,North,No,16.3,"$10,916.07",8.0,74.0,
+1572,43.0,Finance,Bachelors,West,Yes,22.3,"$10,153.28",7.4,62.0,7.37
+1056,49.0,Support,Bachelors,East,No,29.2,"$9,215.51",7.3,79.2,7.45
+1157,45.0,Engineering,Masters,West,No,21.3,"$11,923.12",4.1,81.7,
+1622,33.0,Engineering,Bachelors,South,Yes,8.0,"$9,805.71",7.0,54.1,0.12
+1601,37.0,Engineering,High School,West,Yes,13.2,"$10,543.06",3.0,50.1,1.09
+1311,47.0,Engineering,Bachelors,North,Yes,29.1,"$13,017.44",8.4,68.8,7.0
+1049,46.0,Support,Masters,West,Yes,25.9,"$8,534.98",7.8,87.7,8.98
+1084,50.0,Sales,Bachelors,West,No,27.4,"$9,571.27",7.5,48.8,
+1509,34.0,Engineering,Bachelors,West,No,14.0,"$10,837.67",7.0,69.6,
+1559,48.0,Marketing,Bachelors,East,Yes,25.7,"$9,440.56",4.7,87.8,4.08
+1034,48.0,Engineering,Bachelors,East,Yes,29.6,"$13,173.72",6.1,54.4,
+1478,46.0,Marketing,Masters,West,No,21.5,"$8,958.59",9.4,41.0,0.0
+1438,35.0,Marketing,Masters,North,No,13.5,"$7,823.90",6.1,63.4,1.51
+1036,22.0,Sales,Bachelors,North,Yes,1.5,"$5,665.38",7.5,84.1,3.28
+1332,22.0,Sales,Masters,East,No,0.0,"$5,029.23",6.8,63.5,1.19
+1064,47.0,Support,PhD,South,No,26.2,"$8,433.92",6.0,,0.28
+1414,,Finance,Masters,East,No,23.2,"$10,162.75",,81.8,
+1385,26.0,Engineering,Bachelors,East,No,5.0,"$9,061.50",7.5,75.8,1.83
+1593,45.0,Engineering,Bachelors,East,No,28.7,"$13,159.36",7.4,85.3,
+1323,,Engineering,High School,North,No,34.6,"$14,845.76",6.0,72.7,2.22
+1452,52.0,Finance,Bachelors,North,No,28.2,"$10,973.78",8.1,75.1,
+1235,22.0,HR,Bachelors,South,Yes,2.4,"$5,550.05",7.9,70.6,
+1463,36.0,HR,Masters,South,Yes,12.5,"$7,485.97",6.4,87.9,6.51
+1425,60.0,Marketing,Masters,South,Yes,37.5,"$11,282.38",9.2,68.4,
+1588,34.0,Engineering,Bachelors,South,No,15.9,"$10,834.02",6.9,85.1,3.18
+1304,48.0,Marketing,Bachelors,East,Yes,24.1,"$9,338.89",,44.8,2.09
+1590,38.0,Sales,High School,West,No,14.5,"$7,260.67",,,2.0
+1220,45.0,Engineering,Bachelors,East,Yes,17.5,"$12,317.78",8.9,,0.13
+1649,22.0,Support,Masters,North,No,4.8,"$5,233.43",7.5,59.2,
+1297,54.0,HR,Masters,East,Yes,29.9,"$10,344.39",5.6,76.9,0.13
+1022,24.0,Engineering,Bachelors,South,Yes,0.0,"$9,086.02",7.7,80.0,21.66
+1421,37.0,Support,Masters,South,Yes,13.1,"$6,619.97",9.6,83.6,
+1326,23.0,Support,Masters,North,No,2.7,"$5,224.90",,,3.7
+1200,39.0,Engineering,PhD,South,No,13.2,"$10,540.23",7.2,70.1,2.55
+1451,41.0,Sales,High School,West,No,18.1,"$8,037.80",,56.5,
+1138,35.0,Engineering,Bachelors,North,Yes,14.3,"$10,635.29",7.7,86.9,7.48
+1213,40.0,Sales,Masters,North,No,20.7,"$8,832.98",9.0,59.0,4.42
+1644,39.0,Engineering,Bachelors,East,No,17.0,"$11,111.73",4.9,82.1,3.41
+1624,45.0,Engineering,Bachelors,West,Yes,23.7,"$12,111.76",7.2,55.4,
+1614,49.0,HR,PhD,West,Yes,26.7,"$9,306.62",6.4,59.1,
+1506,27.0,Support,High School,South,Yes,4.3,"$5,079.32",7.9,52.2,3.91
+1544,45.0,HR,PhD,East,Yes,22.6,"$8,868.42",6.5,92.9,5.05
+1232,47.0,Engineering,Masters,West,Yes,22.7,"$11,943.52",5.2,98.7,3.88
+1406,39.0,Finance,Masters,South,Yes,11.8,"$8,230.63",6.5,100.0,2.32
+1318,35.0,Support,Bachelors,West,No,12.7,"$6,644.45",,,
+1184,22.0,Engineering,Masters,West,No,2.0,"$8,851.00",8.1,,4.17
+1571,44.0,Engineering,High School,East,No,23.0,"$11,726.15",10.0,,
+1569,33.0,Engineering,Masters,West,Yes,12.1,"$10,172.01",,77.6,4.06
+1486,38.0,Engineering,Bachelors,South,No,16.2,"$11,103.28",7.5,100.0,
+1279,42.0,Finance,Bachelors,West,Yes,20.4,"$9,800.76",5.9,,0.54
+1021,32.0,Support,High School,West,No,13.6,"$6,571.19",7.4,78.9,
+1171,28.0,Engineering,High School,East,Yes,7.1,"$9,487.33",7.4,50.9,
+1402,50.0,Finance,High School,East,No,25.1,"$10,644.03",7.3,81.8,
+1617,48.0,Support,Bachelors,North,Yes,28.9,"$10,568.23",6.2,89.1,6.31
+1177,47.0,Engineering,Bachelors,East,No,27.8,"$12,574.64",6.8,62.3,0.39
+1328,34.0,Marketing,Bachelors,South,No,12.9,"$7,350.07",6.6,85.2,
+1199,34.0,Sales,High School,East,No,9.7,"$6,955.44",9.1,53.1,11.83
+1471,47.0,Engineering,Masters,South,Yes,25.7,"$12,297.36",6.5,54.5,1.91
+1627,19.0,Support,Bachelors,East,No,25.0,"$8,859.17",6.8,92.2,0.43
+1267,32.0,Engineering,High School,South,No,0.9,"$9,198.02",6.7,64.3,0.34
+1493,39.0,Support,Masters,East,Yes,17.8,"$7,605.36",6.2,95.3,
+1131,22.0,Sales,Bachelors,West,No,1.4,"$5,546.33",7.1,,
+1339,53.0,Sales,Bachelors,West,Yes,34.1,"$10,883.04",8.9,60.0,
+1567,,Support,Bachelors,East,No,14.9,"$6,916.20",8.1,70.5,0.01
+1490,37.0,Marketing,Masters,South,Yes,13.5,"$7,732.77",9.1,75.8,
+1194,44.0,Finance,Bachelors,East,No,15.8,"$9,151.84",7.9,85.2,0.52
+1141,51.0,Engineering,Bachelors,North,Yes,30.7,"$12,904.89",5.5,72.9,
+1417,37.0,Sales,Bachelors,East,No,14.2,"$7,312.64",8.7,51.4,0.3
+1477,28.0,Engineering,Bachelors,North,Yes,4.7,"$9,533.65",8.0,89.9,
+1153,32.0,Sales,Masters,East,No,14.1,"$7,523.91",6.4,59.8,2.6
+1599,29.0,HR,Masters,West,Yes,5.3,"$6,383.65",7.8,77.3,4.68
+1011,29.0,Engineering,Bachelors,West,No,6.1,"$9,249.38",4.4,67.0,0.6
+1270,48.0,Sales,Bachelors,North,Yes,27.2,"$9,060.87",7.5,,1.0
+1097,,Engineering,Bachelors,North,Yes,27.2,"$12,531.87",6.1,,
+1211,29.0,Support,Masters,East,Yes,4.8,"$5,290.27",6.4,72.2,1.95
+1143,35.0,HR,Bachelors,East,Yes,9.8,"$6,756.88",8.3,98.5,
+1570,48.0,Marketing,High School,East,No,22.7,"$9,213.74",7.2,81.7,3.11
+1549,37.0,Support,Bachelors,West,Yes,17.9,"$7,779.29",6.9,66.0,
+1631,52.0,HR,Bachelors,West,No,25.1,"$9,146.40",6.1,62.8,8.63
+1533,,Engineering,High School,West,Yes,14.0,"$10,872.44",6.5,60.6,
+1623,32.0,HR,Bachelors,West,No,6.8,"$7,193.22",6.9,67.9,0.28
+1333,46.0,Support,Masters,North,Yes,23.0,"$8,119.08",7.1,55.7,
+1076,34.0,Engineering,High School,East,No,15.5,"$11,177.26",6.0,,0.33
+1078,22.0,Support,High School,West,Yes,0.9,"$4,544.92",8.5,,
+1264,50.0,Sales,PhD,East,No,26.4,"$9,786.88",7.8,70.5,
+1150,,Sales,Masters,West,No,13.5,"$7,022.36",4.3,46.6,0.44
+1515,51.0,Engineering,High School,South,No,30.5,"$13,119.00",7.7,83.0,0.49
+1634,35.0,Engineering,Masters,North,Yes,11.4,"$10,590.23",8.0,,4.41
+1470,51.0,Marketing,Masters,North,No,33.4,"$10,833.00",4.9,55.3,6.53
+1565,34.0,Marketing,Bachelors,North,No,6.2,"$6,798.19",6.2,87.3,0.11
+1462,22.0,Sales,Bachelors,South,Yes,0.7,"$5,138.18",7.6,84.8,2.85
+1254,45.0,Engineering,Bachelors,North,No,25.2,"$12,346.93",7.1,77.6,0.81
+1370,24.0,Finance,Bachelors,East,No,0.5,"$6,905.40",7.8,75.7,0.55
+1322,35.0,Engineering,High School,West,Yes,16.9,"$11,096.76",8.7,94.2,4.66
+1152,43.0,Finance,Bachelors,North,No,18.8,"$9,282.09",6.9,61.5,
+1303,35.0,Marketing,Bachelors,West,No,12.5,"$7,597.81",5.7,,5.99
+1191,50.0,HR,High School,West,No,28.0,"$9,526.60",7.4,82.3,
+1587,35.0,Sales,Bachelors,West,No,17.2,"$7,973.93",5.3,71.5,5.11
+1349,40.0,Marketing,PhD,East,Yes,23.5,"$8,961.21",7.9,54.3,1.38
+1244,44.0,Marketing,High School,South,No,24.5,"$9,597.36",9.5,,0.79
+1088,50.0,Engineering,Bachelors,East,No,27.1,"$12,525.96",,92.4,
+1608,47.0,Sales,Masters,West,Yes,22.1,"$8,651.82",6.4,89.4,7.11
+1419,29.0,Sales,High School,East,No,5.3,"$6,230.98",6.4,73.6,0.43
+1289,45.0,Marketing,Masters,North,No,21.0,"$8,761.78",7.5,71.2,0.14
+1167,44.0,Finance,Masters,South,Yes,22.4,"$10,006.99",6.5,,0.49
+1596,24.0,Engineering,Bachelors,North,Yes,6.6,"$9,438.50",,61.2,2.98
+1626,37.0,Engineering,Bachelors,West,No,15.7,"$10,852.07",9.4,82.1,0.69
+1156,,Support,High School,West,Yes,14.3,"$6,679.14",5.8,64.9,
+1357,47.0,Support,PhD,North,Yes,20.5,"$8,165.73",8.6,52.4,2.55
+1382,29.0,HR,Masters,North,No,8.9,"$6,549.82",7.4,90.3,0.98
+1280,49.0,Finance,Masters,West,No,28.8,"$11,260.41",7.4,72.6,6.29
+1127,44.0,Engineering,Masters,North,Yes,19.9,"$11,631.00",6.3,53.4,
+1023,,HR,PhD,North,No,8.8,"$7,115.73",6.8,77.6,0.37
+1283,41.0,Engineering,Bachelors,East,Yes,19.8,"$11,591.51",8.2,,1.02
+1472,42.0,Engineering,High School,South,Yes,19.2,"$11,746.58",7.7,77.4,4.77
+1368,42.0,Support,Masters,North,Yes,19.2,"$7,173.94",8.0,64.1,3.05
+1026,29.0,Sales,Bachelors,East,Yes,8.7,"$6,402.40",8.6,56.5,
+1197,35.0,Marketing,Bachelors,West,No,12.4,"$7,710.68",7.8,58.4,0.45
+1065,24.0,Marketing,Masters,North,Yes,4.3,"$6,195.51",,88.6,0.54
+1016,49.0,Engineering,Masters,East,No,29.5,"$13,050.95",7.0,48.0,0.28
+1467,29.0,Marketing,High School,West,No,4.7,"$6,169.22",7.1,,1.78
+1298,36.0,Finance,Masters,East,No,11.1,"$8,316.96",7.6,61.3,
+1337,38.0,Sales,Bachelors,West,No,16.2,"$7,869.30",7.2,,
+1027,,Engineering,PhD,West,Yes,19.2,"$11,237.05",7.6,65.0,
+1589,33.0,Sales,Bachelors,North,No,15.1,"$7,655.70",7.0,,2.08
+1044,22.0,Engineering,Bachelors,South,Yes,3.1,"$9,173.22",8.6,76.6,0.65
+1498,22.0,Marketing,Masters,South,Yes,4.4,"$6,074.67",6.7,74.7,2.69
+1516,30.0,Sales,Masters,South,No,11.2,"$6,951.86",7.5,41.0,
+1639,,Support,Bachelors,West,Yes,39.8,"$10,386.29",4.5,,6.84
+1562,,Engineering,Masters,West,No,18.0,"$11,117.31",7.7,50.1,7.06
+1455,42.0,Sales,High School,West,Yes,20.8,"$8,577.81",5.9,91.9,2.28
+1388,,HR,Bachelors,West,Yes,10.0,"$6,897.74",6.4,75.5,
+1072,61.0,Engineering,Bachelors,West,Yes,34.2,"$13,620.68",6.4,,2.09
+1543,54.0,Finance,Masters,South,No,29.2,"$11,029.45",4.1,75.7,1.84
+1457,36.0,HR,High School,West,Yes,14.1,"$7,557.94",6.0,69.4,0.73
+1432,40.0,Support,PhD,South,No,16.5,"$6,985.98",7.1,60.7,0.06
+1628,50.0,Sales,High School,South,Yes,26.1,"$9,258.79",7.8,75.6,
+1265,38.0,HR,PhD,North,No,10.1,"$6,909.37",10.0,,
+1210,36.0,Marketing,Bachelors,North,Yes,15.4,"$7,993.44",,76.3,2.73
+1317,42.0,Engineering,PhD,East,No,22.5,"$11,938.13",5.7,77.4,3.18
+1514,60.0,Engineering,Bachelors,West,No,42.6,"$14,829.72",7.9,69.9,
+1314,44.0,Engineering,High School,North,Yes,23.1,"$11,977.97",6.1,79.9,
+1535,46.0,Sales,Bachelors,East,Yes,24.1,"$8,842.43",8.5,83.5,
+1320,38.0,HR,Bachelors,South,No,16.3,"$7,965.37",6.7,,0.5
+1008,26.0,Support,Bachelors,South,No,1.7,"$5,308.36",4.3,58.9,
+1394,31.0,Support,Masters,West,No,9.9,"$6,205.37",6.6,60.6,1.97
+1142,48.0,Engineering,Bachelors,North,No,27.9,"$12,770.57",9.0,44.3,
+1087,41.0,Support,Bachelors,North,Yes,19.1,"$7,374.98",6.7,74.8,11.15
+1479,49.0,Marketing,Masters,North,No,29.4,"$10,869.55",6.0,73.8,0.3
+1504,55.0,Marketing,Bachelors,South,Yes,35.9,"$11,013.39",6.8,68.8,2.69
+1216,39.0,Support,PhD,North,Yes,13.3,"$6,377.48",6.3,65.9,16.59
+1581,39.0,Engineering,Bachelors,North,No,19.5,"$11,716.30",3.6,52.0,0.42
+1563,37.0,Finance,Bachelors,North,No,14.7,"$8,570.62",5.1,70.1,
+1399,40.0,Engineering,Masters,South,Yes,19.1,"$11,623.29",6.4,67.2,
+1491,39.0,Support,Bachelors,South,No,20.8,"$7,760.81",7.1,76.0,10.58
+1253,40.0,Engineering,High School,North,Yes,16.8,"$11,219.76",,70.0,
+1469,35.0,Sales,Bachelors,North,Yes,10.7,"$6,711.91",5.8,,0.24
+1358,37.0,Support,Bachelors,South,No,18.2,"$7,476.65",7.2,61.0,5.38
+1255,35.0,Engineering,PhD,East,No,11.9,"$10,046.23",5.6,66.2,0.23
+1277,40.0,Engineering,Bachelors,East,Yes,20.7,"$11,534.64",,67.0,
+1179,32.0,Finance,Masters,South,No,10.2,"$8,037.18",8.0,83.3,0.03
+1282,80.0,Sales,Bachelors,North,No,22.0,"$8,381.62",9.3,65.1,
+1391,32.0,Marketing,High School,South,No,8.8,"$6,932.07",8.0,46.2,
+1509,34.0,Engineering,Bachelors,West,No,14.0,"$10,837.67",7.0,69.6,
+1584,41.0,Engineering,Masters,North,Yes,19.7,"$11,986.39",6.7,80.7,
+1130,27.0,Marketing,Masters,South,Yes,5.8,"$6,699.18",6.1,67.3,8.61
+1145,45.0,Engineering,High School,North,No,29.1,"$12,981.05",5.9,76.3,10.96
+1646,22.0,Finance,Bachelors,West,No,2.2,"$7,296.64",4.4,98.6,10.79
+1073,31.0,Finance,High School,West,No,7.7,"$7,700.88",8.1,53.7,
+1236,27.0,Finance,Bachelors,East,No,4.3,"$7,215.69",7.2,76.2,0.15
+1038,39.0,Engineering,PhD,East,No,17.0,"$10,896.19",6.1,77.8,3.03

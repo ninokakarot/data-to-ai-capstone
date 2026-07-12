@@ -1,0 +1,92 @@
+================================================================================
+Loading best_model.pkl (from Part 3)
+================================================================================
+Model loaded successfully: <class 'sklearn.pipeline.Pipeline'>
+
+================================================================================
+PROMPT DESIGN
+================================================================================
+
+SYSTEM PROMPT:
+ You are an HR analytics assistant that explains a machine learning model's salary-tier predictions to non-technical HR staff. Given an employee's feature values, the model's predicted class, and its predicted probability, respond with ONLY a valid JSON object (no markdown fences, no commentary) with exactly these fields: "prediction_label" (string), "confidence_level" (one of "low", "medium", "high"), "top_reason" (string, the single most influential factor), "second_reason" (string, the second most influential factor), and "next_step" (string, a short recommended HR action). Base your reasoning only on the feature values and probability given; do not invent information not present in the input.
+
+USER PROMPT TEMPLATE:
+ Employee feature values:
+{feature_json}
+
+Model prediction: {predicted_class_label} (class={predicted_class})
+Predicted probability of being a high earner: {predicted_proba:.4f}
+
+Explain this prediction as a JSON object matching the required schema.
+
+Temperature = 0.0 chosen for the main pipeline: this task requires consistent, reproducible structured JSON explanations that a human reviewer can trust to be stable across repeated runs for the same input - temperature=0 always selects the highest-probability next token, removing sampling randomness.
+
+================================================================================
+SIMPLE TEST PROMPT DEMONSTRATION
+================================================================================
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+[simulated] Response: '{"prediction_label": "not_high_earner", "confidence_level": "high", "top_reason": "years_experience and department are the strongest drivers of this prediction", "second_reason": "department placement is also strongly associated with salary tier", "next_step": "no action needed; monitor at next review cycle"}'
+
+================================================================================
+PII GUARDRAIL DEMONSTRATION
+================================================================================
+clean_input: PASSED guardrail - proceeding to LLM call: 'Employee is 34 years old with 9 years of experience in Finance.'
+pii_input: BLOCKED - PII detected in: 'Please contact the employee at jane.doe@example.com for follow-up.'
+Input blocked: PII detected.
+
+================================================================================
+MAIN PIPELINE: predict() + predict_proba() + LLM explanation (temp=0)
+================================================================================
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+
+--- Record 1 ---
+Feature values: {'age': 45.0, 'education_level': 3, 'remote_work': 0, 'years_experience': 20.0, 'performance_score': 8.0, 'satisfaction_score': 75.0, 'bonus_pct': 5.0, 'department_Finance': 0, 'department_HR': 0, 'department_Marketing': 0, 'department_Sales': 0, 'department_Support': 0, 'region_North': 1, 'region_South': 0, 'region_West': 0}
+Predicted class: 1 (high_earner)
+Predicted probability: 0.875
+LLM raw response [simulated]: {"prediction_label": "high_earner", "confidence_level": "high", "top_reason": "years_experience and department are the strongest drivers of this prediction", "second_reason": "department placement is also strongly associated with salary tier", "next_step": "no action needed; monitor at next review cycle"}
+Validation status: pass
+Parsed explanation: {'prediction_label': 'high_earner', 'confidence_level': 'high', 'top_reason': 'years_experience and department are the strongest drivers of this prediction', 'second_reason': 'department placement is also strongly associated with salary tier', 'next_step': 'no action needed; monitor at next review cycle'}
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+
+--- Record 2 ---
+Feature values: {'age': 24.0, 'education_level': 0, 'remote_work': 1, 'years_experience': 1.0, 'performance_score': 6.5, 'satisfaction_score': 60.0, 'bonus_pct': 1.0, 'department_Finance': 0, 'department_HR': 0, 'department_Marketing': 0, 'department_Sales': 0, 'department_Support': 1, 'region_North': 0, 'region_South': 1, 'region_West': 0}
+Predicted class: 0 (not_high_earner)
+Predicted probability: 0.005
+LLM raw response [simulated]: {"prediction_label": "not_high_earner", "confidence_level": "high", "top_reason": "years_experience and department are the strongest drivers of this prediction", "second_reason": "department placement is also strongly associated with salary tier", "next_step": "no action needed; monitor at next review cycle"}
+Validation status: pass
+Parsed explanation: {'prediction_label': 'not_high_earner', 'confidence_level': 'high', 'top_reason': 'years_experience and department are the strongest drivers of this prediction', 'second_reason': 'department placement is also strongly associated with salary tier', 'next_step': 'no action needed; monitor at next review cycle'}
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+
+--- Record 3 ---
+Feature values: {'age': 40.0, 'education_level': 2, 'remote_work': 0, 'years_experience': 13.0, 'performance_score': 7.5, 'satisfaction_score': 68.0, 'bonus_pct': 3.5, 'department_Finance': 1, 'department_HR': 0, 'department_Marketing': 0, 'department_Sales': 0, 'department_Support': 0, 'region_North': 0, 'region_South': 0, 'region_West': 1}
+Predicted class: 0 (not_high_earner)
+Predicted probability: 0.24
+LLM raw response [simulated]: {"prediction_label": "not_high_earner", "confidence_level": "medium", "top_reason": "years_experience and department are the strongest drivers of this prediction", "second_reason": "department placement is also strongly associated with salary tier", "next_step": "no action needed; monitor at next review cycle"}
+Validation status: pass
+Parsed explanation: {'prediction_label': 'not_high_earner', 'confidence_level': 'medium', 'top_reason': 'years_experience and department are the strongest drivers of this prediction', 'second_reason': 'department placement is also strongly associated with salary tier', 'next_step': 'no action needed; monitor at next review cycle'}
+
+================================================================================
+TEMPERATURE A/B COMPARISON (temp=0 vs temp=0.7)
+================================================================================
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+
+--- Record 1 ---
+temp=0.0 [simulated]: {"prediction_label": "high_earner", "confidence_level": "high", "top_reason": "years_experience and department are the strongest drivers of this prediction", "second_reason": "department placement is also strongly associated with salary tier", "next_step": "no action needed; monitor at next review cycle"}
+temp=0.7 [simulated]: {"prediction_label": "high_earner", "confidence_level": "high", "top_reason": "experience level combined with department placement drove this outcome", "second_reason": "age also correlates with the predicted tier", "next_step": "no immediate action required"}
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+
+--- Record 2 ---
+temp=0.0 [simulated]: {"prediction_label": "not_high_earner", "confidence_level": "high", "top_reason": "years_experience and department are the strongest drivers of this prediction", "second_reason": "department placement is also strongly associated with salary tier", "next_step": "no action needed; monitor at next review cycle"}
+temp=0.7 [simulated]: {"prediction_label": "not_high_earner", "confidence_level": "high", "top_reason": "years_experience and department appear to be the biggest factors here", "second_reason": "performance_score contributed a smaller secondary signal", "next_step": "consider a compensation review"}
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+[call_llm] LLM_API_KEY environment variable is not set - cannot make a real API call.
+
+--- Record 3 ---
+temp=0.0 [simulated]: {"prediction_label": "not_high_earner", "confidence_level": "medium", "top_reason": "years_experience and department are the strongest drivers of this prediction", "second_reason": "department placement is also strongly associated with salary tier", "next_step": "no action needed; monitor at next review cycle"}
+temp=0.7 [simulated]: {"prediction_label": "not_high_earner", "confidence_level": "medium", "top_reason": "experience level combined with department placement drove this outcome", "second_reason": "performance_score contributed a smaller secondary signal", "next_step": "consider a compensation review"}
+
+================================================================================
+DONE
+================================================================================
